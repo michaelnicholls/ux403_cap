@@ -10,17 +10,7 @@ annotate service.Customers with @(
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'firstName',
-                Value : firstName,
-            },
-            {
-                $Type : 'UI.DataField',
-                Label : 'lastName',
-                Value : lastName,
-            },
-            {
-                $Type : 'UI.DataField',
-                Label : 'name',
+                Label : 'Full name',
                 Value : name,
             },
             {
@@ -48,6 +38,7 @@ annotate service.Customers with @(
             Target : '@UI.FieldGroup#GeneratedGroup',
         },
     ],
+    
     UI.LineItem : [
         {
             $Type : 'UI.DataField',
@@ -56,17 +47,7 @@ annotate service.Customers with @(
         },
         {
             $Type : 'UI.DataField',
-            Label : 'firstName',
-            Value : firstName,
-        },
-        {
-            $Type : 'UI.DataField',
-            Label : 'lastName',
-            Value : lastName,
-        },
-        {
-            $Type : 'UI.DataField',
-            Label : 'name',
+            Label : 'Full name',
             Value : name,
         },
         {
@@ -85,7 +66,7 @@ annotate service.Customers with {
 };
 
 annotate service.Customers with {
-    name @Common.Label : 'name'
+    name @Common.Label : 'Full name'
 };
 
 annotate service.Customers with {
