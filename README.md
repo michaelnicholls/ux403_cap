@@ -1,7 +1,9 @@
 # Getting Started
 
 npm i -g @sap/cds-dk
+
 npm i -g @sap/cds
+
 npm update
 
 open application info
